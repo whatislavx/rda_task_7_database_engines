@@ -18,7 +18,8 @@ CREATE TABLE ProductDescription (
     ID INT NOT NULL,
     Description VARCHAR(100) NOT NULL,
     ProductID INT NOT NULL,
-    CountryID INT NOT NULL
+    CountryID INT NOT NULL,
+    PRIMARY KEY (ID)
 ) ENGINE=MyISAM;
 
 CREATE TABLE Logs (
